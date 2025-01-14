@@ -8,7 +8,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 class FibControllerTest extends TestCase
 {
     /**
-     * 正常なレスポンスを確認するテスト
+     * リクエストが成功した場合にJSON形式のレスポンスを返す
      */
     public function testGetFibNumWithCorrectParam()
     {
@@ -25,7 +25,7 @@ class FibControllerTest extends TestCase
     }
 
     /**
-     * 無効なパラメータの場合のレスポンスを確認するテスト
+     * リクエストが失敗した場合にJSON形式のレスポンスを返す
      */
     public function testGetFibNumWithInvalidParam()
     {

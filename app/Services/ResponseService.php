@@ -5,7 +5,7 @@ namespace App\Services;
 class ResponseService
 {
     /**
-     * @param mixed $data
+     * @param array<string,mixed> $data
      * @param int $code
      * @return Illuminate\Http\JsonResponse
      */
@@ -19,6 +19,7 @@ class ResponseService
     /**
      * @param string $message
      * @param int $code
+     * @return Illuminate\Http\JsonResponse
      */
     public static function errorResponse($message, $code = 400) {
         return response()->json([
