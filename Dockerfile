@@ -1,5 +1,9 @@
 FROM richarvey/nginx-php-fpm:3.1.6
 
+# GMPライブラリとPHPのGMP拡張をインストール
+RUN apk --no-cache add gmp-dev \
+    && docker-php-ext-install gmp
+
 COPY . .
 
 # Image config
