@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03cf25f0653c8ea6ea7cc12294f0014b",
+    "content-hash": "dbe36a05ca8a91fcefbe62e429b07d06",
     "packages": [
         {
             "name": "brick/math",
@@ -6552,16 +6552,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.0.6",
+            "version": "11.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "6af32d7938fc366f86e49a5f5ebb314018d1b1fb"
+                "reference": "3e1843a58adc9c433ee6170bdee7d615f7ccc20b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6af32d7938fc366f86e49a5f5ebb314018d1b1fb",
-                "reference": "6af32d7938fc366f86e49a5f5ebb314018d1b1fb",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3e1843a58adc9c433ee6170bdee7d615f7ccc20b",
+                "reference": "3e1843a58adc9c433ee6170bdee7d615f7ccc20b",
                 "shasum": ""
             },
             "require": {
@@ -6600,7 +6600,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "11.0-dev"
+                    "dev-main": "11.2-dev"
                 }
             },
             "autoload": {
@@ -6632,7 +6632,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.0.6"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.2.2"
             },
             "funding": [
                 {
@@ -6648,7 +6648,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-12T15:40:01+00:00"
+            "time": "2024-06-15T09:14:53+00:00"
         },
         {
             "name": "sebastian/cli-parser",
